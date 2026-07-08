@@ -8,6 +8,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 90px;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+}
+
 
 .card { 
     background-color: #1a1a1a;
@@ -20,7 +30,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 15px;
+
+    min-height: 300px;
 }
 
 .header {
@@ -45,7 +58,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #C5A059;
-    margin: 20px 0 0px 0;
+    margin: 20px 0 10px 0;
 }
 
 
@@ -57,13 +70,22 @@ img {
     box-shadow: 0 0 10px rgba(255, 215, 0, 1.0);
 }
 
+.icone {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+    
+}
+/*
 ul {
     border: 1px solid #C5A059;
     padding: 20px 20px;
     border-radius: 20px;
     list-style-type: none;
+    text-align: center;
 }
-
+*/
 .bloco-preco {
     text-align: center;
 }
